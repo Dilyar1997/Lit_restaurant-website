@@ -1,9 +1,10 @@
 <?php
 
-$dbServername = '146.50.38.152';
-$dbUsername = 'PhoKingNais';
-$dbPassword = '123';
-$dbName = 'PhoKingNais';
+$dbServername = '????????????';
+$dbUsername = '????????';
+$dbPassword = '??????';
+$dbName = '???????';
+// Connect with your database pls 
 
 $connection = new mysqli($dbServername, $dbUsername, $dbPassword, $dbName);
 
