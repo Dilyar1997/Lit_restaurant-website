@@ -1,0 +1,30 @@
+.policy_container h1 {
+    font-family: var(--font-body);
+    color: var(--white);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+
+    margin-top: 10vh;
+    padding: 25px;
+}
+
+.policy_container h2 {
+    font-family: var(--font-body);
+    color: var(--white);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+
+    padding: 25px;
+}
+
+.policy_container p {
+    font-family: var(--font-body);
+    color: var(--white);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+
+    padding: 25px;
+}

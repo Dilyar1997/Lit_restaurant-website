@@ -1,0 +1,18 @@
+.contact_list ul {
+  color: var(--white);
+
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: normal;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.reservation_container {
+  width: 90%;
+  padding: 10px;
+  margin: 0 auto;
+}

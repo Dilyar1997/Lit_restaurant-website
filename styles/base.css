@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Vollkorn:400,700&display=swap');
+
+@import './normalize.css';
+@import './variables.css';
+@import './navigation.css';
+@import './footer.css';
+@import './index.css';
+@import './sign_in.css';
+@import './contact.css';
+@import './success.css';
+@import './reservation.css';
+@import './account.css';
+@import './registration.css';
+@import './personal-info.css';
+@import './security.css';
+@import './activation.css';
+@import './bookings.css';
+@import './404.css';
+@import './policy.css';
+
+@import './components/menu_button_1.css';
+@import './components/menu_button_2.css';
+@import './components/menu_button_3.css';
+@import './components/menu_button_4.css';
+@import './components/menu_button_5.css';
+@import './components/forgot_pass_popup.css';
+@import './components/reservation_popup.css';
+
+body {
+    background-color: var(--black);
+}
+
+button {
+    cursor: pointer;
+
+    padding: 10px 30px;
+
+    background: #FFA529;
+    transition: background .25s;
+
+    border: none;
+    border-radius: var(--border-radius);
+
+    font-family: var(--font-body);
+    font-weight: bold;
+    color: var(--white);
+
+    white-space: nowrap;
+
+    min-width: 150px;
+}
+
+button:hover {
+   background: var(--primary);
+}

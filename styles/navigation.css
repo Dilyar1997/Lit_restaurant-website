@@ -1,0 +1,97 @@
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 75px;
+  width: 100vw;
+
+  transition: background .5s;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 75px;
+  width: 100vw;
+
+  transition: background .5s;
+}
+
+#page-nav label, #hamburger {
+  display: none;
+}
+
+nav a {
+  color: var(--white);
+
+  text-decoration: none;
+  font-family: var(--font-body);
+  font-weight: bold;
+
+  transition: opacity .25s;
+}
+
+nav a:hover {
+  opacity: 50%;
+}
+
+nav.background {
+  background: rgba(20, 33, 36, .5);
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: block;
+    transition: background .5s;
+  }
+
+  #page-nav label {
+    position: fixed;
+    display: inline-block;
+    color: #fff;
+    background: var(--seconday);
+    font-style: normal;
+    font-size: 2.2em;
+    margin-bottom: -4px;
+    padding: 10px;
+  }
+
+  #page-nav ul a {
+    
+    border-top: 0px solid #333;
+    display: block;
+    width: 200px;
+    top: 26px;
+    left: 20px;
+    height: 64%;
+    margin-top: 10px;
+  }
+
+  nav.background {
+    background: none;
+  }
+
+  #page-nav ul {
+    display: none;
+    left: 10px;
+  }
+
+  #page-nav input:checked ~ ul {
+    display: block;
+    top: 31px;
+  }
+}

@@ -1,0 +1,163 @@
+#sign-in-email {
+  font-family: var(--font-body);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: var(--black);
+
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+#sign-in-password {
+  font-family: var(--font-body);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: var(--black);
+
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+#sign-in-passwordRepeat {
+  font-family: var(--font-body);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: var(--black);
+
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+#sign-in-fname {
+  font-family: var(--font-body);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: var(--black);
+
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+#sign-in-lname {
+  font-family: var(--font-body);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: normal;
+  color: var(--black);
+
+  outline: none;
+
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+
+  margin-bottom: 10px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 600px;
+  width: 50%;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+#register-confirm-button {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: var(--white);
+
+  background: #FFA529;
+
+  cursor: pointer;
+  border-radius: 5em;
+
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+  margin-top: 10px;
+
+  transition: all .2s ease-in-out; 
+}
+
+#register-confirm-button:hover {
+  background-color: var(--primary);
+}
+
+.glyphicon {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 15px;
+}
+
+.glyphicon-remove {
+  color: red;
+}
+
+.glyphicon-ok {
+  color: green;
+}
+
+.fname-warning {
+  font-family: var(--font-body);
+  font-weight: normal;
+  font-size: 14px;
+  color: red;
+
+  margin-bottom: 10px;
+}
+
+.lname-warning {
+  font-family: var(--font-body);
+  font-weight: normal;
+  font-size: 14px;
+  color: red;
+
+  margin-bottom: 10px;
+}

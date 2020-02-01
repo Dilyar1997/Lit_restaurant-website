@@ -1,0 +1,11 @@
+:root {
+    --primary: #142124;
+    --secondary: #FFA529;
+    --white: #fff;
+    --black: #000000;
+
+    --font-body: Roboto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    --font-header: Vollkorn;
+
+    --border-radius: 20px;
+}

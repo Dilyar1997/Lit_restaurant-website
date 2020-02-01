@@ -1,0 +1,87 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#old-password {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+}
+
+#new-password {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+
+}
+
+#new-password-repeat {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+}
+
+#change-confirm-button {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--white);
+  
+    background: var(--primary);
+  
+    cursor: pointer;
+    border-radius: 5em;
+  
+    border: 0;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  
+    transition: all .2s ease-in-out; 
+  
+    margin-top: 30px;
+  }
+  
+#change-confirm-button:hover {
+    background: #FFA529;
+  }

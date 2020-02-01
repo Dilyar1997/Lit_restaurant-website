@@ -1,0 +1,83 @@
+.forgot-title {
+    font-family: var(--font-body);
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.forgot-pass-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    height: 93%   ;
+    width: 90%;
+    max-width: 700px;
+    min-width: 300px;
+}
+
+#forgot-email {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+}
+
+#forgot-button {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--white);
+
+    background: var(--primary);
+
+    cursor: pointer;
+    border-radius: 5em;
+
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    transition: all .2s ease-in-out; 
+}
+
+#forgot-button:hover {
+    background: var(--secondary);
+}
+
+.close-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close-button img {
+    height: 20px;
+    width: 20px;
+
+    cursor: pointer;
+}
+
+.forgot-warning {
+    font-family: var(--font-body);
+    font-weight: normal;
+    font-size: 14px;
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+}

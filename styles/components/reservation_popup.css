@@ -1,0 +1,130 @@
+.sign-in-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 450px   ;
+    width: 50%;
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.popup_title {
+    font-family: var(--font-body);
+    color: var(--black);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+
+    text-align: center;
+}
+
+.sign-in-heading {
+    font-family: var(--font-header);
+    color: var(--black);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.sign-in-title {
+    font-family: var(--font-body);
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#sign-in-email {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+}
+
+#sign-in-password {
+    font-family: var(--font-body);
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: var(--black);
+
+    outline: none;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+
+    margin-bottom: 10px;
+}
+
+.sign-in-forgot {
+    font-family: var(--font-body);
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--white);
+
+    margin-bottom: 0px;
+}
+#sign-in-button {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--white);
+
+    background: #FFA529;
+
+    cursor: pointer;
+    border-radius: 5em;
+
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    transition: all .2s ease-in-out; 
+}
+
+.sign-in-forgot {
+    text-decoration: none;
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--black);
+}
+
+.sign-in-register {
+    font-family: var(--font-body);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: var(--black);
+}
+
+@media screen and (max-height: 750px) {
+    .reservation_popup {
+      bottom: 25px;
+    }
+  }
